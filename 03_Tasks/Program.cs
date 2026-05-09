@@ -21,9 +21,10 @@
         }
         static void Main(string[] args)
         {
+            
             //Example 1
-            //ThreadStart void()
-            //ParameterizedThreadStart  void (object a);
+           // ThreadStart// void()
+            //ParameterizedThreadStart // void (object a);
             //Thread thread = new Thread(Method);
             //thread.Start();
             ////Method();

@@ -95,7 +95,7 @@
             do
             {
                 input = Console.ReadKey();
-                //Thread thread = new Thread(InfinityLoop);   
+                Thread thread = new Thread(InfinityLoop);   
                 //thread.Start();
                 InfinityLoop();
 

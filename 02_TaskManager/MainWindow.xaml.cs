@@ -40,12 +40,17 @@ namespace _02_TaskManager
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             Process select = (Process) grid.SelectedItem;
-            MessageBox.Show(select.ProcessName);
+ 
+            string info = "";
+            info += select.ProcessName + "\n";
+            info += select.Id + "\n";
+            info += select.TotalProcessorTime + "\n";
+            MessageBox.Show(info);
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-
+            Process.Start(txtProc.Text);
         }
     }
 }
